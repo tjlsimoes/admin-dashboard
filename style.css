@@ -1,6 +1,15 @@
+@font-face {
+  font-family: 'roboto';
+  src: url('fonts/roboto-regular-webfont.woff2') format('woff2'),
+       url('fonts/roboto-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   display: grid;
   grid-template: 1fr 4fr / 1fr 4fr;
+  font-family: "roboto", sans-serif;
 }
 
 .sidebar {
