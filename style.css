@@ -48,7 +48,7 @@ body {
 .sidebar .dashboard {
   grid-template-columns: 3fr 9fr;
   place-items: center;
-  font-size: 18px;
+  font-size: 1.2rem;
 }
 
 .dashboard > p {
