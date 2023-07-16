@@ -58,6 +58,80 @@ body {
 
 .header {
   background-color: #FFFFFF;
+  font-weight: bold;
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+  place-items: center;
+  padding-left: 5%;
+}
+
+.header img,
+.header .symbol {
+  width: 20px;
+}
+
+.header .top-left {
+  display: grid;
+  grid-template-columns: 1fr 10fr;
+  justify-self: stretch;
+}
+
+.top-left input[type="search"] {
+  border: none;
+  border-radius: 50px;
+  height: 1.4rem;
+  background-color: #E2E8F0;
+}
+
+.header .top-right,
+.header .down-right {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+}
+
+.top-right > .user-icon {
+  border-radius: 50%;
+  width: 40px;
+}
+
+.header .down-left{
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  justify-self: start;
+  justify-items: start;
+  gap: 10%;
+}
+
+.down-left .user-icon  {
+  border-radius: 50%;
+  width: 60px;
+}
+
+.down-left .greeting {
+  display: grid;
+  justify-items: start;
+}
+
+.greeting p:nth-of-type(1) {
+  font-size: 0.8rem;
+}
+
+.header .down-right {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20%;
+  justify-self: start;
+  padding-left: 15%;
+}
+.down-right button {
+  background-color: #1992D4;
+  color: #FFFFFF;
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  
 }
 
 .main-content {
