@@ -118,11 +118,9 @@ body {
 }
 
 .header .down-right {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
   gap: 20%;
-  justify-self: start;
-  padding-left: 15%;
+  display: flex;
+  justify-content: space-around;
 }
 .down-right button {
   background-color: #1992D4;
