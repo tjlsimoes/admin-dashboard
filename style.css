@@ -163,18 +163,38 @@ body {
   background-color: #FFFFFF;
   border-radius: 5px;
   box-shadow: inset 8px 0 #F0B429;
+  padding-left: 5%;
   display: grid;
+  align-items: center;
+  gap: 3%;
+}
+
+.projects h2,
+.right-top h2 {
+  font-weight: bold;
+}
+
+.projects p,
+.right-top p,
+.user-id p:nth-child(2) {
+  color: #636363;
 }
 
 .project img {
   width: 20px;
 }
 
-.project .text {
+.project .icons {
   width: 90%;
-  align-self: center;
-  display: flex;
-  flex-direction: column;
-  text-align: start;
-
+  display: grid;
+  grid-auto-flow: column;
+  gap: 5%;
+  justify-content: end;
 }
+
+.project .text {
+  display: grid;
+  gap: 5%;
+  place-items: start  ;
+}
+
