@@ -153,6 +153,7 @@ body {
   grid-area: 1 / 1 / 3;
   display: grid;
   grid-template-rows: 1fr 10fr;
+  margin-bottom: 5%;
 }
 
 .center .projects {
